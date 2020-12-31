@@ -8,9 +8,9 @@
 
 import UIKit
 import SnapKit
-import AppCenter
-import AppCenterAnalytics
-import AppCenterCrashes
+//import AppCenter
+//import AppCenterAnalytics
+//import AppCenterCrashes
 
 
 @UIApplicationMain
@@ -21,10 +21,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        AppCenter.start(withAppSecret: "2949cce4-057c-4a8d-b6af-ae58d0e6d1ec", services:[
-          Analytics.self,
-          Crashes.self
-        ])
+//        AppCenter.start(withAppSecret: "2949cce4-057c-4a8d-b6af-ae58d0e6d1ec", services:[
+//          Analytics.self,
+//          Crashes.self
+//        ])
         
         return true
     }
